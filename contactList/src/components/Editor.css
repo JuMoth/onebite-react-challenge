@@ -1,0 +1,45 @@
+.editor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+
+    padding: 10px;
+}
+
+.editor .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.editor .input_wrapper {
+    display: flex;
+    gap: 2px;
+}
+
+.editor .input_wrapper > input {
+    padding: 10px 5px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.editor .input_wrapper .name {
+    width: 150px;
+}
+
+.editor .input_wrapper .email {
+    flex: 1;
+}
+
+.editor > button {
+    cursor: pointer;
+    width: 100%;
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    /* background-color: gainsboro; */
+    background-color: white;
+    font-weight: bold;
+}
